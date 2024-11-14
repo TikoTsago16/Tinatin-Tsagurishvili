@@ -66,8 +66,7 @@ class Program
        
        
         foreach (var animal in animals)
-        {
-                      
+        {            
             Console.WriteLine($"{animal.GetType().Name} says: {animal.MakeSound()}");
         }
     }
